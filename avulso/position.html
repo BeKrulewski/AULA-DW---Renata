@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<title>Position</title>
+    <style>
+        .container {
+            width: 500px;
+            height: 500px;
+            border: 2px solid;
+            margin-top: 20px;
+            position: relative;
+        }
+        .static{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: static;
+        }
+        .relative {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            position: relative;
+            top: 15px;
+            left: 15px;
+        }
+        .absolute {
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            position: absolute;
+            top: 90px;
+            right: 15px;
+        }
+           .absolute2 {
+            width: 100px;
+            height: 100px;
+            background-color: lightgreen;
+            position: absolute;
+            top: 90px;
+            right: 150px;
+            z-index: -2;
+        }
+        .fixed {
+            width: 50px;
+            height: 50px;
+            background-color: yellow;
+            position: fixed;
+            bottom: 15px;
+            right: 15px;
+        }
+        .sticky {
+            width: 100%;
+            height: 50px;
+            background-color: orange;
+            position: sticky;
+            top: 0;
+        }
+</style>
+</head>
+<body>
+    <div class="sticky">Sticky</div>
+
+    <div class="container">
+        <div class="static">Static</div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis nesciunt, expedita quaerat aut corporis ducimus temporibus suscipit voluptatem tempora alias voluptas, esse labore quas atque. Quisquam dolores itaque vero. Fugit.</p>
+        <div class="relative">Relative</div>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis tempora distinctio minus saepe id voluptates, pariatur officia fugiat ex, cupiditate laborum voluptatem. Eius voluptatibus provident veniam atque, consequatur quia sit!</p>
+        <div class="absolute">Absolute</div>
+        <div class="absolute2">Absolute -2</div>
+        <div class="fixed">Fixed</div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus blanditiis quidem non nulla sunt esse ea obcaecati, error quam hic sed excepturi animi, placeat quasi, illo suscipit? Temporibus, dolorum doloribus?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel quibusdam suscipit porro excepturi reiciendis, vitae eveniet, minus, similique voluptas fugit veniam. Optio amet qui ex eaque corporis praesentium rem dolorum?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio amet necessitatibus recusandae magnam at ipsum quos eius inventore ullam similique quaerat obcaecati quasi enim eveniet excepturi voluptates, doloribus sit natus?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, consequatur sequi? Esse assumenda vitae distinctio libero voluptatem a molestias vero accusamus quam temporibus cumque, dolore placeat officia, labore iusto nisi!</p>
+    </div>
+</body>
+</html>
