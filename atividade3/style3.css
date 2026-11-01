@@ -1,0 +1,223 @@
+body{
+    background-color: #ecb869;
+}
+h1{
+    text-align: center;
+    color: #cc4086;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+}
+.p1{
+    text-align: center;
+    color: #3d2b2b;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;;
+
+   background-color: #f7eff3;
+   width: 590px;
+   margin-left: 175px;
+   margin-top: 10px;
+}
+.fixed {
+        width: 50px;
+        height: 50px;
+        background-image: url('icone sorvete.webp');
+        background-size: cover;
+        position: fixed;
+        bottom: 15px;
+        right: 15px;
+    }
+.container{
+       display: flex;
+       background-color: #c29552;
+       justify-content: space-evenly;
+       margin-left: 125px;
+       margin-right: 160px;
+       margin-top: 150px;
+}
+.container div{
+    background-color: #eee3e9;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+.container2{
+      display: flex;
+      justify-content: space-evenly;
+       margin-left: 125px;
+       margin-right: 160px;
+       margin-top: 10px;
+}
+.container2 div{
+    background-color: #eee3e9;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+.sorvetes{
+    position: absolute;
+    width: 225px;
+    height: 225px;
+    right: 210px;
+}
+
+
+
+.melt{
+        width: 1351px;
+        height: 75px;
+        background-color: lightpink;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: -2;
+}
+@keyframes bobble {
+    0% {background-color: lightpink; top: 35px;}
+    50% {background-color: lightpink; top: 55px;}
+    100% {background-color: lightpink; top: 35px;}
+}
+@keyframes drip1 {
+    0% {background-color: lightpink; top: -500px;}
+    100% {background-color: lightpink; top: 75px;}
+}
+@keyframes drip2 {
+    0% {background-color: lightpink; top: -300px;}
+    100% {background-color: lightpink; top: 50px;}
+}
+@keyframes drop2 {
+    0% {background-color: lightpink; top: 0px; opacity: 1;}
+    50% {background-color: lightpink; top: 0px; opacity: 1;}
+    75% {background-color: lightpink; top: 650px; opacity: 1;}
+    100% {background-color: lightpink; top: 650px; opacity: 0;}
+}
+@keyframes drip3 {
+    0% {background-color: lightpink; top: -200px;}
+    100% {background-color: lightpink; top: 40px;}
+}
+@keyframes drop3 {
+    0% {background-color: lightpink; top: 0px; opacity: 1;}
+    50% {background-color: lightpink; top: 0px; opacity: 1;}
+    75% {background-color: lightpink; top: 650px; opacity: 1;}
+    100% {background-color: lightpink; top: 650px; opacity: 0;}
+}
+@keyframes drip4 {
+    0% {background-color: lightpink; top: -650px;}
+    100% {background-color: lightpink; top: 75px;}
+}
+.drip1{
+        width: 100px;
+        height: 500px;
+        background-color: lightpink;
+        position: absolute;
+        top: 75px;
+        left: 0px;
+        animation-name: drip1;
+        animation-duration: 8s;
+        z-index: -2;
+}
+.drip2{
+        width: 50px;
+        height: 300px;
+        background-color: lightpink;
+        position: absolute;
+        top: 50px;
+        left: 110px;
+        animation-name: drip2;
+        animation-duration: 4s;
+        z-index: -2;
+}
+.drop2{
+        width: 40px;
+        height: 40px;
+        background-color: lightpink;
+        position: absolute;
+        top: 0px;
+        left: 115px;
+        animation-name: drop2;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        z-index: -2;
+}
+.drip3{
+        width: 50px;
+        height: 200px;
+        background-color: lightpink;
+        position: absolute;
+        top: 40px;
+        left: 800px;
+        animation-name: drip3;
+        animation-duration: 6s;
+        z-index: -2;
+}
+.drop3{
+        width: 40px;
+        height: 40px;
+        background-color: lightpink;
+        position: absolute;
+        top: 0px;
+        left: 805px;
+        animation-name: drop3;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+        z-index: -2;
+}
+.drip4{
+        width: 125px;
+        height: 650px;
+        background-color: lightpink;
+        position: absolute;
+        top: 75px;
+        right: 0px;
+        animation-name: drip4;
+        animation-duration: 5s;
+        z-index: -2;
+}
+.bobble1{
+        width: 50px;
+        height: 50px;
+        background-color: lightpink;
+        position: absolute;
+        top: 0px;
+        left: 75px;
+        animation-name: bobble;
+        animation-duration: 7s;
+        animation-iteration-count: infinite;
+        z-index: -2;
+}
+.bobble2{
+        width: 50px;
+        height: 45px;
+        background-color: lightpink;
+        position: absolute;
+        top: 0px;
+        left: 150px;
+        animation-name: bobble;
+        animation-duration: 9s;
+        animation-iteration-count: infinite;
+        z-index: -2;
+}
+.bobble3{
+        width: 50px;
+        height: 45px;
+        background-color: lightpink;
+        position: absolute;
+        top: 0px;
+        right: 120px;
+        animation-name: bobble;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        z-index: -2;
+}
+.bobble4{
+        width: 50px;
+        height: 45px;
+        background-color: lightpink;
+        position: absolute;
+        top: -25px;
+        left: 810px;
+        animation-name: bobble;
+        animation-duration: 9s;
+        animation-iteration-count: infinite;
+        z-index: -2;
+}
