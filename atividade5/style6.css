@@ -15,6 +15,26 @@ input:focus {
     border-color: black;
     box-shadow: 0 0 8px lightgray;
 }
+textarea {
+    border: 2px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+}
+textarea:focus {
+    border-color: black;
+    box-shadow: 0 0 8px lightgray;
+}
+select {
+    border: 2px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+}
+select:focus {
+    border-color: black;
+    box-shadow: 0 0 8px lightgray;
+}
 button[type="submit"] {
     background-color: lightgreen;
     color: white;
