@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATIVIDADE 5</title>
+    <link rel="stylesheet" href="style6.css">
+</head>
+<body>
+    <h2>FORMULÁRIO</h2>
+    <form action="/submit" method="POST">
+        <label for="nome">NOME:</label>
+        <input type="text" id="nome" name="nome" required>
+        <br><br>
+        <label for="email">EMAIL:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+        <label for="senha">SENHA:</label>
+        <input type="password" id="senha" name="senha" required>
+        <br><br>
+        <label for="data">DATA DE NASCIMENTO:</label>
+        <input type="date" id="data" name="data" required>
+        <br><br>
+        <label for="curso">CURSO:</label>
+        <select id="curso" name="curso" required>
+            <option value="engenharia">ENGENHARIA DE SOFTWARE</option>
+            <option value="ciencia">CIENCIA DA COMPUTAÇÃO</option>
+        </select>
+        <br><br>
+        <label for="genero">GÊNERO:</label>
+        <select id="genero" name="genero" required>
+            <option value="homem">HOMEM</option>
+            <option value="mulher">MULHER</option>
+            <option value="outro">OUTRO</option>
+            <option value="prefironaodizer">PREFIRO NÃO DIZER</option>
+        </select>
+        <br><br>
+        <label for="interesses">INTERESSES:</label>
+        <textarea id="interesses" name="interesses" rows="4" cols="50"></textarea>
+        <br><br>
+        <label for="comentario">COMENTÁRIO:</label>
+        <textarea id="comentario" name="comentario" rows="4" cols="50"></textarea>
+        <br><br>
+        <label for="imagem">ESCOLHA UMA IMEGEM:</label>
+        <input type="file" id="imagem" accept="image/*">
+        <br><br>
+        <button type="reset">RESET</button>
+        <button type="submit">ENVIAR</button>
+    </form>
+</body>
+</html>
